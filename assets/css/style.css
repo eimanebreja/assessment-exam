@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+body {
+    background: #1d2731;
+}
+
+.navbar-bg {
+    background: #0b3c5d;
+    height: 70px;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.logo-icon {
+    margin-top: 5px;
+    width: 80%;
+}
+
+.navbar-link {
+    color: #f5f5f5 !important;
+}
+
+.navbar-link:hover {
+    background: none !important;
+    opacity: .8;
+}
+
+.nav-btn {
+    border-radius: 25px;
+    width: 130px;
+    text-align: center;
+    background-color: #d9b310;
+    transition: .4s;
+}
+
+.nav-btn:hover {
+    opacity: .6 !important;
+    transition: .4s;
+    background-color: #b1951a !important;
+}
+
+.navbar-menu {
+    background-color: #0b3c5d;
+}
+
+
+.icon-bar {
+    background: #d9b310;
+}
+
+.carousel-img {
+    width: 100%;
+
+}
+
+.header-top {
+    margin-top: -20px;
+}
+
+.section-all-games {
+    padding-top: 20px;
+
+}
+
+.title {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.title h1 {
+    border-bottom: 2px solid #d9b310;
+    padding-bottom: 10px;
+}
+
+.games-item {
+    text-align: center;
+}
+
+.games-item img {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.title-togel {
+    margin-top: 60px;
+}
+
+.result-games-body {
+    margin-top: 60px;
+}
+
+.result-item {
+    margin-top: 10px;
+}
+
+.result-item:hover {
+    text-decoration: none;
+}
+
+.result-item img {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.description {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.description p.date {
+    color: #d9b310;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.description p.number {
+    color: #d9b310;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.footer-area {
+    margin-top: 30px;
+    background: #0b3c5d;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright {
+    color: #f5f5f5;
+}
+
+.header-card img {
+    width: 100%;
+}
+
+.card-games-section {
+    padding-bottom: 40px;
+}
+
+.card-image {
+    padding-top: 30px;
+
+}
+
+.card-image img {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.register-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-form {
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.register-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-inline label {
+    color: #f5f5f5;
+    flex-basis: 35%;
+    text-align: right;
+    text-transform: uppercase !important;
+}
+
+.form-inline label span {
+    color: red;
+}
+
+.form-inline .form-control {
+    margin-left: 10px;
+    width: 100%;
+    flex-basis: 65%;
+    text-transform: uppercase !important;
+}
+
+.form-inline .input-group {
+    width: 100%;
+    flex-basis: 65%;
+    display: flex;
+    text-transform: uppercase !important;
+
+}
+
+.form-inline .input-group .pwd,
+.pwds {
+    width: 100% !important;
+    flex-basis: 100% !important;
+}
+
+.form-btn {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form-btn .btn {
+    width: 130px;
+    background: #d9b310;
+    border: none;
+    height: 45px;
+    color: #f5f5f5;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .navbar-bg {
+        background: #0b3c5d;
+        height: 70px;
+        padding-top: 10px;
+        width: 100%;
+        border-radius: 0px !important;
+        border: none;
+    }
+
+    .navbar-toggle {
+        border: 1px solid #b1951a;
+    }
+
+    .logo-icon {
+        padding-left: 10px;
+        margin-top: 5px;
+        width: 70%;
+    }
+
+    .title h1 {
+        border-bottom: 2px solid #d9b310;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .navbar-menu {
+        padding-left: 20px;
+        background-color: #0b3c5d;
+        padding-bottom: 20px;
+    }
+
+    .card-games-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .card-image {
+        padding-top: 50px;
+
+    }
+
+    .card-image img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+    .form-inline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .form-inline label {
+        color: #f5f5f5;
+        flex-basis: 100%;
+        text-align: left;
+        text-transform: uppercase !important;
+    }
+
+    .form-inline .form-control {
+        margin-left: 0px;
+        width: 100%;
+        flex-basis: 100%;
+        text-transform: uppercase !important;
+    }
+
+    .form-inline .input-group {
+        width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        text-transform: uppercase !important;
+
+    }
+
+    .form-inline .input-group .pwd,
+    .pwds {
+        width: 100% !important;
+        flex-basis: 88% !important;
+    }
+
+
+}
